@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Outfit', sans-serif;
+    background-color: var(--clr-light);
 }
 
 /* layout:
@@ -18,3 +19,9 @@ body{
 - Desktop: 1440px 
 */
 /* #endregion common rules */
+
+/* #region main */
+
+
+
+/* #endregion main */
