@@ -12,16 +12,46 @@
 body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--clr-light);
+    padding:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-/* layout:
-- Mobile: 375px
-- Desktop: 1440px 
-*/
+img{
+    max-width: 100%;
+}
 /* #endregion common rules */
 
 /* #region main */
+.card{
+    background-color: var(--clr-lighter);
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 360px;
+    max-height: 780px;
+}
+p{
+    font-size: 0.875rem;
+    color:var(--clr-semi-dark);
+    font-weight: var(--fw-md);
+}
 
+h1{
+    font-weight: var(--fw-lg);
+    font-size: 1.375rem;
+    margin: 0;
+}
 
-
+.card_img_top{
+    padding:1rem;
+    padding-bottom: 0;
+}
+.card_img_top img{
+    border-radius: 1rem;
+}
+.card_body{
+    padding: 1.5rem;
+}
 /* #endregion main */
