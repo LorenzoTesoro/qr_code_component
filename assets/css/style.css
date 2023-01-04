@@ -1,0 +1,20 @@
+/* #region common rules */
+:root{
+    --clr-darker: hsl(218, 44%, 22%);
+    --clr-semi-dark:hsl(220, 15%, 55%);
+    --clr-light:hsl(212, 45%, 89%);
+    --clr-lighter:hsl(0, 0%, 100%);
+
+    --fw-md:400;
+    --fw-lg:700;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+}
+
+/* layout:
+- Mobile: 375px
+- Desktop: 1440px 
+*/
+/* #endregion common rules */
