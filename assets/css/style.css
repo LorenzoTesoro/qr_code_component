@@ -1,4 +1,11 @@
 /* #region common rules */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root{
     --clr-darker: hsl(218, 44%, 22%);
     --clr-semi-dark:hsl(220, 15%, 55%);
@@ -16,7 +23,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 img{
